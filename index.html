@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Suhtlemispsühholoogia arvamismäng</title>
+        <link rel="stylesheet" href="./css/bootstrap.min.css" />
+        <link rel="stylesheet" href="./css/main.css" />
+    </head>
+    <body>
+        <div class="container min-vh-100 min-vw-100 d-flex justify-content-center align-items-center">
+            <div class="card p-5 mx-6">
+                <div class="card-content">
+                    <div class="row">
+                        <div class="col text-center">
+                            <h1>Suhtlemispsühholoogia arvamismäng</h1>
+                        </div>
+                    </div>
+                    <div id="word" class="d-flex justify-content-center my-4"></div>
+                    <div id="desc" class="d-flex justify-content-center my-4"></div>
+                    <div class="row d-flex justify-content-center flex-column align-items-center">
+                        <div class="col-6 d-flex justify-content-center">
+                            <div class="input-group mb-3">
+                                <input
+                                    id="letter-input"
+                                    type="text"
+                                    pattern="[A-Za-z]"
+                                    class="form-control"
+                                    placeholder="Tähestiku täht"
+                                />
+                                <div class="input-group-append">
+                                    <input
+                                        type="submit"
+                                        class="btn btn-primary"
+                                        type="button"
+                                        id="letter-submit"
+                                        value="Arva täht"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 d-flex justify-content-center">
+                            <div class="input-group mb-3">
+                                <input
+                                    id="word-input"
+                                    type="text"
+                                    pattern="[A-Za-z]"
+                                    class="form-control"
+                                    placeholder="Terve sõna"
+                                />
+                                <div class="input-group-append">
+                                    <input
+                                        type="submit"
+                                        class="btn btn-primary"
+                                        type="button"
+                                        id="word-submit"
+                                        value="Arva terve sõna"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 d-flex flex-column align-items-center justify-content-center">
+                            <p id="feedback-msg" class="m-0 p-0"></p>
+                            <p>Eksimusi: <span id="guess-count">0</span>/5</p>
+                        </div>
+                        <div class="col-6 d-flex justify-content-center flex-column align-items-center">
+                            <div class="form-group">
+                                <input
+                                    type="submit"
+                                    class="btn btn-secondary"
+                                    type="button"
+                                    id="new-word-submit"
+                                    value="Uus sõna"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="./js/jquery-3.4.1.min.js"></script>
+        <script src="./js/bootstrap.min.js"></script>
+        <script src="./js/main.js"></script>
+    </body>
+</html>
