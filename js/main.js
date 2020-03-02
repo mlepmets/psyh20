@@ -30,7 +30,7 @@ var words = {
         'Organismi seisund, millega kaasnevad märgatavad kehalised muutused (hingamises, pulsis, näo verevarustuses jne).',
     kogemus: 'Teadmine või oskus millegi tegemisest, nägemisest või kogemisest.',
     uskumus: 'Millegi tõeseks pidamine.',
-    käitumine: 'Indiviidi nähtavaid toiminguid. Need võivad olla spontaansed või seotud reageeringutega stiimuleile.',
+    käitumine: 'Indiviidi nähtavad toimingud. Need võivad olla spontaansed või seotud reageeringutega stiimuleile.',
     'õpitud abitus':
         'Ebameeldivas olukorras enda aitamiseks pingutustest loobumine isegi siis, kui sellest abi oleks, kuna ühes olukorras passiivse ohvri rolli sunnitud indiviid on oma kogemuse üldistanud teistele olukordadele.',
     hoiak: 'Suhteliselt püsiv õpitud eelsoodumus toimida teatud kindlal viisil objekti suhtes.',
